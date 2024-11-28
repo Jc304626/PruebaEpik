@@ -109,7 +109,46 @@
     font-size: 2rem;
     font-weight: bold;
 }
-/*Primera pagina headers
+/*Final de la primera pagina headers*/
+
+/*Header de la segunda pagina*/
+.cuarto-header {
+    background-color: #4f32b0;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.quinto-header {
+    background-color: #55c6dd;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sexto-header {
+    background-color: #2b6ab8;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.septimo-header {
+    background-color: #b6a323;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/*Final de la segunda pagina headers*/
 
 
 
