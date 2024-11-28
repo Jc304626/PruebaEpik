@@ -1,16 +1,52 @@
 ---
+import Mainlayout from "../Layouts/Mainlayout.astro";
+
 
 ---
+<Mainlayout title="Home Page - EPIK">
+	<div class="container-fluid">
+		<section class="hero-section">
+			<div class="hero-content">
+				<h1 class="hero-title">Productos de Alto Desempeño</h1>
+				<p class="hero-subtitle"></p>
+				<a
+					href="#Categorias"
+					class="btn btn-light bg-boton1"
+					aria-current="page">Descubrir más</a
+				>
+			</div>
+		</section>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+		<section
+			class="about-section"
+			class="container my-4 p-3 bg-white position-relative"
+		>
+			<div class="about-content">
+				<h1 class="h1-info">Sobre nuestra empresa</h1>
+				<p class="p-letters">
+					En <strong>EPIK</strong>, ofrecemos productos de alto
+					desempeño que garantizan resultados excepcionales. Nos
+					enorgullecemos de brindar soluciones efectivas para el
+					mantenimiento y proteccion de su vehículo con armonía en el
+					ambiente.
+				</p>
+			</div>
+		</section>
+
+		<!-- Sección de categorías -->
+		<section id="Categorias" class="categories py-5 bg-dark text-white">
+			<div class="container">
+				<h2 class="text-center mb-4">Nuestras Categorías</h2>
+				<div class="row g-4">
+					
+				</div>
+			</div>
+		</section>
+
+		<div
+			class="footer d-flex justify-content-between align-items-center mt-4 pt-2 border-top"
+		>
+		</div>
+	</div>
+
+</Mainlayout>
