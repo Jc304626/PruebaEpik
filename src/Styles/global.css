@@ -1,5 +1,116 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
+/*Imagenes de las tarjetas*/
+.car-image {
+    width: 100%;
+    height: auto;
+    transform: translateX(0%);
+}
+
+.img-fluid1 {
+    width: 100%;
+    height: auto;
+    transform: translateX(0%);
+}
+
+.wax-image {
+    width: 100%;
+    height: auto;
+    transform: translateX(0%);
+}
+
+.glass-image {
+    width: 100%;
+    height: auto;
+    transform: translateX(0%);
+}
+
+
+.tire-image {
+    width: 100%;
+    height: auto;
+    transform: translateX(0%);
+}
+
+.vinyl-image {
+    width: 100%;
+    height: auto;
+    transform: translateX(0%);
+}
+
+.interior-image {
+    width: 100%;
+    height: auto;
+    transform: translateX(0%);
+}
+
+.des-image {
+    width: 100%;
+    height: auto;
+    transform: translateX(0%);
+}
+
+.use-image {
+    width: 100%;
+    height: auto;
+    transform: translateX(0%);
+}
+
+
+.product-image {
+    position: absolute;
+    /* Asegúrate de que esté en posición absoluta o relativa */
+    width: 200px;
+    bottom: -170px;
+    left: 50%;
+    /* Posiciona al 50% del contenedor */
+    transform: translateX(150%);
+    /* Mueve la imagen al centro */
+}
+
+.product1-image {
+    position: absolute;
+    /* Asegúrate de que esté en posición absoluta o relativa */
+    width: 400px;
+    bottom: -120px;
+    left: 50%;
+    /* Posiciona al 50% del contenedor */
+    transform: translateX(60%);
+    /* Mueve la imagen al centro */
+}
+/*final de las imagenes*/
+
+
+/*Cambia el color de los headers de cada cosa*/
+/*Header de la primera pagina*/
+.primer-header {
+    background-color: #c51e1e;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.segundo-header {
+    background-color: #b14d23;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tercero-header {
+    background-color: #9c7721;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*Primera pagina headers
+
 
 
 /*Css del index*/
