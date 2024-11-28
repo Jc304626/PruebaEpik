@@ -99,3 +99,75 @@ body {
 }
 
 /*Termina la parte del css del index*/
+
+
+/*Estilos de categorycard*/
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.h1-info {
+    font-size: 4rem;
+}
+
+.p-letters {
+    font-size: 2rem;
+}
+
+
+
+.text-section p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.category-card {
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+}
+
+.category-card img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.category-card:hover img {
+    transform: scale(1.1);
+}
+
+.category-overlay {
+    background: rgb(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.relative-container {
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
+}
+
+
+.category-card:hover .category-overlay {
+    opacity: 1;
+}
+
+.category-overlay h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.category-overlay .btn {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/*Final de los css de category card*/

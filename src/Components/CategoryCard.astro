@@ -1,0 +1,93 @@
+---
+const { title, image, link } = Astro.props;
+---
+
+<div class="category-card position-relative" data-name={title}>
+    <!-- Contenido de la tarjeta -->
+</div>
+
+<div class="col-md-6">
+    <div class="category-card position-relative" data-name="Lavado">
+        <div class="category-title text-start">Lavado</div>
+        <img src="../../public/14.0.png" alt={title} class="img-fluid w-100" />
+        <div
+            class="category-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+        >
+            <h3 class="text-white mb-3">Lavado</h3>
+            <a href="/Lavado" class="btn btn-light" aria-current="page"
+                >Explorar más</a
+            >
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="category-card position-relative" data-name="Detallado">
+        <div class="category-title text-start">Detallado</div>
+        <img src="../../public/13.0.png" alt={title} class="img-fluid w-100" />
+        <div
+            class="category-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+        >
+            <h3 class="text-white mb-3">Detallado</h3>
+            <a href="/Detallado" class="btn btn-light" aria-current="page"
+                >Explorar más</a
+            >
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="category-card position-relative" data-name="Complementarios">
+        <div class="category-title text-start">Complementarios</div>
+        <img src="../../public/12.0.png" alt={title} class="img-fluid w-100" />
+        <div
+            class="category-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+        >
+            <h3 class="text-white mb-3">Complementarios</h3>
+            <a href="/Complementarios" class="btn btn-light" aria-current="page"
+                >Explorar más</a
+            >
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div
+        class="category-card position-relative"
+        data-name="Limpiadores y desengrasantes"
+    >
+        <div class="category-title text-start">
+            Limpiadores y desengrasantes
+        </div>
+        <img src="../../public/15.0.png" alt={title} class="img-fluid w-100" />
+        <div
+            class="category-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+        >
+            <h3 class="text-white mb-3">Limpiadores y desengrasantes</h3>
+            <a href="/Limpiadores" class="btn btn-light" aria-current="page"
+                >Explorar más</a
+            >
+        </div>
+    </div>
+</div>
+
+<div class="relative-container">
+    <div class="col-md-6">
+        <div class="category-card position-relative" data-name="Contacto">
+            <div class="category-title text-start">Contacto</div>
+            <img
+                src="../../public/16.0.png"
+                alt={title}
+                class="img-fluid w-100"
+            />
+            <div
+                class="category-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+            >
+                <h3 class="text-white mb-3">Contacto</h3>
+                <a href="/Contacto" class="btn btn-light" aria-current="page"
+                    >Explorar más</a
+                >
+            </div>
+        </div>
+    </div>
+</div>
