@@ -169,7 +169,52 @@
 }
 /*final de la tercera pagina headers*/
 
+/*Header de la cuarta pagina*/
+.decimo-header {
+    background-color: #306db3;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
 
+.undecimo-header {
+    background-color: #6829c6;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.duodecimo-header {
+    background-color: #b841b2;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.decimotercero-header {
+    background-color: #dc2f52;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.decimocuarto-header {
+    background-color: #730707;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*Final de la cuarta pagina headers*/
 
 
 /*Css del index*/
