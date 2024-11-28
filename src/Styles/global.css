@@ -1,0 +1,101 @@
+
+
+
+/*Css del index*/
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://images.hdqwalls.com/download/dodge-challenger-srt-hellcat-widebody-2018-4k-3b-1280x2120.jpg');
+    /* Cambia por la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.bg-boton1 {
+    background-color: #e63946;
+    border-radius: 8px;
+    /* Opcional: esquinas redondeadas */
+    border-color: #e63946;
+    color: white;
+
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #d62828;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-light {
+    background: #0e87ff;
+    padding: 15px;
+    /* Espaciado interno */
+    border-radius: 8px;
+    /* Opcional: esquinas redondeadas */
+}
+
+.body {
+    background: #212529;
+}
+
+/*Termina la parte del css del index*/
