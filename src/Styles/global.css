@@ -1,3 +1,4 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
 
 
 
@@ -171,3 +172,105 @@ html {
 }
 
 /*Final de los css de category card*/
+
+
+
+/*Styles de banner de navegacion*/
+.navbar-custom {
+    background-color: #ffffff;
+    /* Cambia este color del fondo */
+
+}
+
+.navbar-custom .nav-link {
+    color: #000000;
+    /* Color de los enlaces */
+    font-weight: bold;
+}
+
+.nav-item1 {
+    position: relative;
+    /* Si necesitas ajustar sobre una imagen */
+    margin-left: 30px;
+    /* Ajusta este valor para mover el texto hacia la derecha */
+    /* También puedes usar padding si prefieres*/
+    margin-top: 10px;
+}
+
+.nav-item2 {
+    margin-top: 10px;
+}
+
+.nav-item3 {
+    margin-top: 10px;
+}
+
+
+
+.navbar-custom .nav-link:hover {
+    color: #28a745;
+    /* Color cuando pasa el mouse */
+}
+
+.navbar-custom .navbar-brand img {
+    height: 75px;
+    /* Tamaño del logo */
+}
+
+.navbar-custom .dropdown-menu {
+    background-color: #343a40;
+    /* Fondo del menú desplegable */
+    border: none;
+    /* Quita bordes */
+}
+
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar-custom .dropdown-item:hover {
+    background-color: #28a745;
+    /* Fondo cuando pasa el mouse */
+    color: #ffffff;
+}
+
+/*Color del boton search*/
+.navbar-custom .btn-outline-success {
+    color: #000000;
+    border-color: #28a745;
+}
+
+.navbar-custom .btn-outline-success:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+/*Final de estilos de barra de busqueda*/
+
+/* Estilo general */
+h1 {
+    font-size: 24px;
+}
+
+/* Pantallas medianas */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+.navbar-brand {
+    width: 5%;
+    height: 100%;
+}
+
+
+.category-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

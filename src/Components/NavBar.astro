@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="../../public/logo2.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       <!-- Links del NavBar -->
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item1">
+            <a class="nav-link active" href="/">Inicio</a>
+          </li>
+          <li class="nav-item2">
+            <a class="nav-link" href="/Contacto">Contacto</a>
+          </li>
+          <li class="nav-item3 dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="true"
+            >
+              Categorías
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/Lavado">Lavado</a></li>
+              <li><a class="dropdown-item" href="/Detallado">Detallado</a></li>
+              <li><a class="dropdown-item" href="/Complementarios">Complementarios</a></li>
+              <li><a class="dropdown-item" href="/Limpiadores">Limpiadores y Desengrasantes</a></li>
+              <li><a class="dropdown-item" href="/Contacto">Contacto</a></li>
+            </ul>
+          </li>
+        </ul>
+        
+    <form class="d-flex" role="search" onsubmit="event.preventDefault(); searchCards()">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search..."
+        aria-label="Search"
+        id="searchBar"
+      />
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+      </div>
+    </div>
+  </nav>
