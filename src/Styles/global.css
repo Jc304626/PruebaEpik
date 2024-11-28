@@ -147,8 +147,28 @@
     font-size: 2rem;
     font-weight: bold;
 }
-
 /*Final de la segunda pagina headers*/
+
+/*Header de la tercera pagina*/
+.octavo-header {
+    background-color: #5f9d2d;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.noveno-header {
+    background-color: #15ab68;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*final de la tercera pagina headers*/
+
 
 
 
