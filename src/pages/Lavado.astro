@@ -1,0 +1,143 @@
+---
+import Mainlayout from "../Layouts/Mainlayout.astro";
+import '../Styles/global.css';
+
+---
+
+<Mainlayout>
+
+<!-- Primera tarjeta -->
+<div id="Wash" class="container my-4 p-3 bg-white position-relative" data-name="wash and wax concentrate">
+    <div class="header text-white text-end py-3 px-4 primer-header">
+        <h1 class="display-5">Lavado</h1>
+    </div>
+    <div class="content d-flex flex-column flex-md-row align-items-start py-3 border-top border-secondary">
+        <div class="image-section flex-shrink-0 position-relative col-md-6">
+            <img src="../../public/2.jpg" alt="Carro Clásico" class="car-image img-fluid mb-5">
+        </div>
+        <div class="text-section flex-grow-1 ps-4 col-md-6">
+            <h2 class="h5 fw-bold">Wash & Wax Concentrade:</h2>
+            <p>Shampoo automotriz de alta gama, especialmente desarrollado para los más exigentes.</p>
+            <p>Remueve la suciedad fácilmente en forma exhaustiva, protege la superficie de las inclemencias del ambiente, dejando un acabado suave y de alto brillo por más tiempo.</p>
+            <p><strong>Fórmula libre de sal.</strong></p>
+            <h3 class="h6">Presentación:</h3>
+            <ul class="list-unstyled">
+                <li>3.785 L</li>
+                <li>20 L</li>
+                <li>208.175 L</li>
+            </ul>
+            <p><strong>Forma de empleo y dosis:</strong> 
+                En un recipiente limpio, diluya de 30-60 ml de shampoo (1 a 2 onzas) por galón de agua, mezcle y aplique a la superficie previamente humedecida. 
+                Retire el producto con suficiente agua. 
+                Se recomienda no dejar secar, elimine el rastro de agua para evitar huella de agua en la carrocería (water spots).
+            </p>
+              <!-- Botones -->
+              <div class="d-flex gap-2"> </div>
+                  <button class="btn btn-primary"> <!--Este falta de la ficha tecnica -->
+                    <a
+                      href="/assets/pdf/F_T_Wash.pdf"
+                      download="Ficha_Tecnica_Wash.pdf"
+                      style="text-decoration: none; color: white;"
+                      >Ficha Técnica</a
+                    >
+                  </button>
+                  <button class="btn btn-secondary">
+                    <a
+                      href="/assets/pdf/F_D_S_Wash.pdf"
+                      download="Hoja_de_Seguridad_Wash.pdf"
+                      style="text-decoration: none; color: white;"
+                      >Hoja De Seguridad</a
+                    >
+                  </button>
+             </div>   
+        </div>
+    </div>
+  </div>
+
+   <!-- Segunda tarjeta -->
+   <div id="Waterless" class="container my-4 p-3 bg-white position-relative" data-name="wash and wax concentrate">
+    <div class="header text-white text-end py-3 px-4 segundo-header">
+        <h1 class="display-5">Lavado</h1>
+    </div>
+    <div class="content d-flex flex-column flex-md-row align-items-start py-3 border-top border-secondary">
+        <div class="image-section flex-shrink-0 position-relative col-md-6">
+            <img src="../../public/9.0.jpeg" alt="Carro Clásico" class="car-image img-fluid mb-5">
+        </div>
+        <div class="text-section flex-grow-1 ps-4 col-md-6">
+            <h2 class="h5 fw-bold">Waterless Car Wash:</h2>
+            <p>El Epik Waterless Car Wash es un producto innovador que permite limpiar vehículos sin necesidad de agua, 
+              encapsulando partículas de suciedad sin dañar la pintura, mientras su componente catiónico brinda un efecto antiestático 
+              y facilita un secado rápido en caso de lluvia, evitando marcas de agua.</p>
+           
+            <p><strong>Fórmula libre de sal.</strong></p>
+            <h3 class="h6">Presentación:</h3>
+            <ul class="list-unstyled">
+                <li>3.785 L</li>
+                <li>20 L</li>
+                <li>208.175 L</li>
+            </ul>
+            <p><strong>Forma de empleo y dosis:</strong> 
+              El Epik Waterless Car Wash viene listo para usar (ready to use), no es necesario diluir ya que disminuiría su efecto
+              y no podríamos dar la garantía de encapsulamiento de la suciedad. Puede aplicarse sobre
+              el vehículo en forma de spray con un atomizador o en forma de espuma con un dispositivo espumador.
+              Se utiliza una franela o paño de micro fibra para dispersar el producto y recoger la suciedad. En caso de estar
+              con mucha suciedad el trapo, se lava el mismo y se prosigue. Para dar el acabado final, se pasa una franela limpia y
+               seca.
+            </p>
+            </p>
+            <div class="d-flex gap-2">
+              <button class="btn btn-primary">
+                <a
+                  href="/assets/pdf/F_T_Waterless.pdf"
+                  download="Ficha_Tecnica_Waterless.pdf"
+                  style="text-decoration: none; color: white;"
+                  >Ficha Técnica</a
+                >
+              </button>
+              <button class="btn btn-secondary"><!--No tiene la hoja de seguridad -->
+                <a
+                  href="/assets/pdf/F_D_S_Waterless"
+                  download="Hoja_de_Seguridad_Waterless.pdf"
+                  style="text-decoration: none; color: white;"
+                  >Hoja de Seguridad</a
+                >
+              </button>
+            </div>  
+        </div>
+    </div>
+  </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Mainlayout>
