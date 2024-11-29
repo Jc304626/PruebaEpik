@@ -83,3 +83,41 @@ import Mainlayout from "../Layouts/Mainlayout.astro";
         </div>
     </section>
 </Mainlayout>
+
+
+
+<script>
+ import emailjs from 'emailjs-com'; // Asegúrate de instalarlo: npm install emailjs-com
+  
+
+emailjs.init('hq23gvc_a-zHudg2J'); // Reemplaza 'TU_USER_ID' con tu User ID
+
+document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('button') as HTMLButtonElement | null;
+    const form = document.getElementById('form') as HTMLFormElement | null;
+
+  if (!form || !btn) return;
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    btn.value = 'Sending...';
+
+    const serviceID = 'default_service';
+    const templateID = 'template_eoffrbz';
+
+    emailjs
+      .sendForm(serviceID, templateID, this)
+      .then(() => {
+        btn.value = 'Send Email';
+        alert('Message sent!');
+      })
+      .catch((err) => {
+        btn.value = 'Send Email';
+        alert(JSON.stringify(err));
+      });
+  });
+});
+
+  </script>
+  

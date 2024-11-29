@@ -58,3 +58,36 @@ import "../styles/global.css";
 	</div>
 
 </Mainlayout>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		const searchBar = document.getElementById(
+			"searchBar",
+		) as HTMLInputElement;
+
+		// Verifica si el elemento existe antes de agregar el event listener
+		if (searchBar) {
+			searchBar.addEventListener("input", searchCards);
+		} else {
+			console.error('El elemento con id "searchBar" no se encontró.');
+		}
+	});
+
+	function searchCards() {
+		const query =
+			(
+				document.getElementById("searchBar") as HTMLInputElement
+			)?.value.toLowerCase() || "";
+		const cards = document.querySelectorAll(".category-card[data-name]"); // Selecciona solo las tarjetas con data-name
+
+		cards.forEach((card) => {
+			const cardElement = card as HTMLElement; // Asegúrate de que sea un HTMLElement
+			const name = cardElement.getAttribute("data-name")?.toLowerCase();
+			if (name?.includes(query)) {
+				cardElement.style.display = "block"; // Muestra la tarjeta
+			} else {
+				cardElement.style.display = "none"; // Oculta la tarjeta
+			}
+		});
+	}
+</script>
